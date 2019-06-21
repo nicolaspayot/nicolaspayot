@@ -8,7 +8,7 @@ body {
 
 html {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', 'Helvetica', 'Arial', sans-serif;
   color: white;
 }
 
