@@ -1,10 +1,11 @@
 import React from 'react'
-import Me from '../assets/images/me-200x200.jpeg'
+import Me from '../assets/images/me.jpeg'
 
 export default () => (
-  <div className="avatar">
+  <div className="avatar" style={{ overflow: 'hidden' }}>
     <img
       className="rounded-full"
+      style={{ width: '180px' }}
       src={Me}
       alt="Avatar"
       height="180"
