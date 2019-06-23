@@ -16,13 +16,5 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Comfortaa:300,400:latin'],
-        },
-      },
-    },
   ],
 }
