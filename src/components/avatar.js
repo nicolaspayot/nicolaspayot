@@ -1,5 +1,5 @@
 import React from 'react'
-import Me from '../assets/images/me.jpeg'
+import Me from '../assets/images/me.jpg'
 
 export default () => (
   <div className="avatar" style={{ overflow: 'hidden' }}>
