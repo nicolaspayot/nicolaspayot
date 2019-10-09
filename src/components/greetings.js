@@ -9,8 +9,8 @@ export default () => (
       </span>
     </h1>
     <h2 className="text-1xl md:text-3xl" style={{ fontWeight: 300 }}>
-      JS enthusiastic / Lead Front-End Developer @{' '}
-      <a href="https://www.dawex.com/">Dawex</a>
+      JS enthusiastic / Frontend Developer @{' '}
+      <a href="https://www.malt.com/" target="_blank" rel="noopener noreferrer">Malt</a>
     </h2>
   </div>
 )
