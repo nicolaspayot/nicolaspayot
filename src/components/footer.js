@@ -17,7 +17,7 @@ export default () => (
       >
         Gatsby |
       </a>{' '}
-      © 2019 Nicolas Payot
+      © 2020 Nicolas Payot
     </div>
   </footer>
 )

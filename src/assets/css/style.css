@@ -46,3 +46,16 @@ html {
     0 1.5px 3px 0 rgba(0, 0, 0, 0.15);
   box-sizing: content-box;
 }
+
+.avatar:hover {
+  animation: spin 0.8s forwards;
+}
+
+@keyframes spin {
+  75% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
