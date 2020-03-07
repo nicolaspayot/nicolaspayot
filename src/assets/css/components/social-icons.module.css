@@ -1,0 +1,7 @@
+.social > a {
+  transition: all 0.1s;
+}
+
+.social > a:hover {
+  transform: scale(2);
+}

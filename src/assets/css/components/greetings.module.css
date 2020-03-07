@@ -1,0 +1,31 @@
+.wave {
+  display: inline-block;
+}
+
+.wave:hover {
+  animation: wave 0.8s forwards;
+}
+
+.malt {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+
+.malt:hover {
+  background-color: #ff396c;
+}
+
+@keyframes wave {
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  75% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

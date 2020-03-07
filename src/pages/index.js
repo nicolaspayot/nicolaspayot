@@ -1,4 +1,5 @@
-import '../assets/css/style.css'
+import '../assets/css/base.css'
+import { wrapper } from '../assets/css/components/wrapper.module.css'
 
 import React from 'react'
 import Header from '../components/header'
@@ -8,7 +9,7 @@ import SocialIcons from '../components/social-icons'
 import Footer from '../components/footer'
 
 export default () => (
-  <div className="wrapper">
+  <div className={wrapper}>
     <Header />
     <Avatar />
     <Greetings />
