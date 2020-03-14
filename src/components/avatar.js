@@ -1,6 +1,4 @@
 import React from 'react'
-import Me from '../assets/images/me.jpg'
-import Malt from '../assets/images/malt.png'
 import {
   avatar,
   side,
@@ -13,7 +11,7 @@ export default () => (
     <div className={`${side} ${front}`}>
       <img
         className="rounded-full"
-        src={Me}
+        src="//res.cloudinary.com/dub8sl73k/image/upload/v1584176491/me_p90glq.jpg"
         alt="Avatar"
         height="180"
         width="180"
@@ -23,7 +21,7 @@ export default () => (
       <a href="https://www.malt.fr/" target="_blank" rel="noopener noreferrer">
         <img
           className="rounded-full"
-          src={Malt}
+          src="//res.cloudinary.com/dub8sl73k/image/upload/v1584176501/malt_dnfd8x.png"
           alt="Avatar"
           height="180"
           width="180"
