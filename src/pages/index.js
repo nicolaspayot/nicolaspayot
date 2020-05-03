@@ -1,3 +1,4 @@
+import 'typeface-nunito'
 import '../assets/css/base.css'
 import { wrapper } from '../assets/css/components/wrapper.module.css'
 

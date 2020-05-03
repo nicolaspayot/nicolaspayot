@@ -18,7 +18,7 @@ export default () => (
       title="GitHub"
       aria-label="GitHub profile"
     >
-      <GithubIcon id="github" fill="white" height={60} role="img" />
+      <GithubIcon id="github" fill="#fff" role="img" />
     </a>
     <a
       href="https://twitter.com/npayot"
@@ -27,7 +27,7 @@ export default () => (
       title="Twitter"
       aria-label="Twitter profile"
     >
-      <TwitterIcon id="twitter" fill="white" height={100} role="img" />
+      <TwitterIcon id="twitter" fill="#fff" role="img" />
     </a>
     <a
       href="https://medium.com/@npayot"
@@ -36,7 +36,7 @@ export default () => (
       title="Medium"
       aria-label="Medium profile"
     >
-      <MediumIcon id="medium" fill="white" height={100} role="img" />
+      <MediumIcon id="medium" fill="#fff" role="img" />
     </a>
     <a
       href="https://www.linkedin.com/in/npayot/"
@@ -45,10 +45,10 @@ export default () => (
       title="Linkedin"
       aria-label="Linkedin profile"
     >
-      <LinkedinIcon id="linkedin" fill="white" height={50} role="img" />
+      <LinkedinIcon id="linkedin" fill="#fff" role="img" />
     </a>
     <a href="mailto:nicolas.payot@gmail.com" title="Mailto" aria-label="Mailto">
-      <EmailIcon id="email" fill="white" height={50} role="img" />
+      <EmailIcon id="email" fill="#fff" role="img" />
     </a>
   </div>
 )

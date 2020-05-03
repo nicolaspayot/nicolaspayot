@@ -1,7 +1,13 @@
-.social > a {
-  transition: all 0.1s;
+@media (hover: hover) {
+  .social > a {
+    transition: all 0.1s;
+  }
+
+  .social > a:hover {
+    transform: scale(1.6);
+  }
 }
 
-.social > a:hover {
-  transform: scale(2);
+svg {
+  height: 50px;
 }
