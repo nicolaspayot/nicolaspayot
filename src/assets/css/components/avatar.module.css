@@ -17,6 +17,7 @@
     0 0 8px 0 rgba(0, 0, 0, 0.25);
   box-sizing: content-box;
   transition: all 0.8s ease;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
