@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 const SEO = {
   url: 'https://nicolaspayot.com/',
   title: 'Nicolas Payot',
-  description: 'JS enthusiastic / Front-End Developer @ Malt',
+  description: 'Senior Front-End Developer @ Malt / JS & UI enthusiastic',
   image: 'images/me.jpg',
 }
 
